@@ -9,17 +9,27 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>this is my first react practice app</p>
+        {/* calling the component */}
+         <Person></Person>
+         <Person></Person>
+
       </header>
     </div>
   );
 }
 
+// creating a component function
+function Person(){
+  const personStyle={
+    border: '1px solid red',
+    margin: '10px'
+  }
+  return (
+    <div style={personStyle}>
+      <h1>Name: sakib al hasan</h1>
+      <h3>favourite bd player</h3> 
+    </div>
+  )
+}
 export default App;

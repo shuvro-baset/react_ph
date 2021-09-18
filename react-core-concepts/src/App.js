@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <ListComponent></ListComponent>
       <Counter></Counter>
-      <Product></Product>
       <ExternalUsers></ExternalUsers>
     </div>
   );
@@ -30,9 +29,24 @@ function ListComponent(){
   )
 }
 
+// counter component using useState method. 
+function Counter() {
+  const [count, setCount] = useState(0);
+  const handleIncrease = () => setCount(count + 1);
+  const handleDecrease = () => setCount(count - 1);
+  return (
+    // inline css added here.
+    <div style={{textAlign: 'center', backgroundColor: "black", color: "white", width: "50%", marginLeft: "25%", padding: "5px"}}>
+      <h1>Count: {count} </h1>
+      <button onClick={handleIncrease}>Increase</button>
+      <button onClick={handleDecrease}>Decrease</button>
+    </div>
+  )
+}
+
+// External User component that comes from an API service. Here I am showing username and Email.
 function ExternalUsers() {
   const [users, setUsers] = useState([]);
-
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(res => res.json())
@@ -41,51 +55,23 @@ function ExternalUsers() {
 
   return (
     <div>
-      <h3>External Users</h3>
+      <h3 style={{textAlign: 'center', backgroundColor: "black", color: "white", width: "50%", margin: "20px 25%", padding: "5px"}}>External Users</h3>
       {
-        users.map(user => <User name={user.name} email={user.email}></User>)
+        users.map(user => <User name={user.name} email={user.email}></User>) //dynamic user data passing here.
       }
     </div>
   )
 }
-
+// user component that will use in ExternalUsers component.
 function User(props) {
   return (
+    // this className style property comes from app.css file. It means Its a external css effect.
     <div className="product">
       <h2>name: {props.name}</h2>
       <p>Email: {props.email}</p>
     </div>
   )
 }
-
-// counter component using useState method. 
-function Counter() {
-  const [count, setCount] = useState(0);
-  const handleIncrease = () => setCount(count + 1);
-  const handleDecrease = () => setCount(count - 1);
-  return (
-    // inline css added here.
-    <div style={{textAlign: 'center', backgroundColor: "black", color: "white", width: "50%", marginLeft: "25%"}}>
-      <h1>Count: {count} </h1>
-      <button onClick={handleIncrease}>Increase</button>
-      <button onClick={handleDecrease}>Decrease</button>
-    </div>
-  )
-}
-
-function Product(props) {
-  const productStyle = {
-    border: '3px solid blue',
-    borderRadius: '10px'
-  }
-  return (
-    <div className="product" style={productStyle}>
-      <h2>Name: {props.name}</h2>
-      <h4>Price: {props.price}</h4>
-    </div>
-  )
-}
-
 
 export default App;
 

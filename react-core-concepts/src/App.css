@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+.product{
+  background-color: cyan;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  float: left;
+}

@@ -5,10 +5,29 @@ import { useEffect, useState } from 'react';
 function App() {
   return (
     <div className="App">
-      {/* <Counter></Counter> */}
+      <ListComponent></ListComponent>
+      <Counter></Counter>
+      <Product></Product>
       <ExternalUsers></ExternalUsers>
     </div>
   );
+}
+// first component that contains a list.
+function ListComponent(){
+  const nayoks = ['Rubel', 'Bapparaz', 'Koober', 'Bappi', 'Shuvo', 'Omar Sani'];
+  const listStyleClass = {
+    margin: "30px 100px",
+  };
+  return (
+    <div style={listStyleClass}>
+      <h4>Here I am showing a list from an array.</h4>
+      <ul>
+          {
+            nayoks.map(nayok => <li>{nayok}</li>)
+          }
+      </ul>
+    </div>
+  )
 }
 
 function ExternalUsers() {
@@ -39,14 +58,14 @@ function User(props) {
   )
 }
 
-
+// counter component using useState method. 
 function Counter() {
   const [count, setCount] = useState(0);
   const handleIncrease = () => setCount(count + 1);
   const handleDecrease = () => setCount(count - 1);
-
   return (
-    <div>
+    // inline css added here.
+    <div style={{textAlign: 'center', backgroundColor: "black", color: "white", width: "50%", marginLeft: "25%"}}>
       <h1>Count: {count} </h1>
       <button onClick={handleIncrease}>Increase</button>
       <button onClick={handleDecrease}>Decrease</button>
@@ -67,28 +86,6 @@ function Product(props) {
   )
 }
 
-
-
-/*
-const products = [
-    {name: 'mobile', price: 15000 },
-          {name: 'camera', price: 55000 },
-          {name: 'laptop', price: 150000 },
-          {name: 'watch', price: 5000 },
-          {name: 'shoe', price: 500 },
-          ]
-          */
-
-/*
-{
-            products.map(product => <Product name={product.name} price={product.price}></Product>)
-          }
-          <Product name="mobile" price="15000"></Product>
-          <Product name="laptop" price="150000"></Product>
-          <Product name="camera" price="55000"></Product>
-          <Product name="mobile" price="15000"></Product>
-          <Product name="mobile" price="15000"></Product>
-          */
 
 export default App;
 

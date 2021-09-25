@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
 // import Countries from './Components/Countries/Countries';
-import Meal from './Components/Meals/Meals';
+import Meals from './Components/Meals/Meals';
 // import Footer from './components/Footer/Footer';
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* calling Countries component */}
       {/* <Countries></Countries> */}
       <Header></Header>
-      <Meal></Meal>
+      <Meals></Meals>
     </div>
   );
 }

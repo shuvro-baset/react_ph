@@ -4,7 +4,7 @@
         "name": "Z.A Badol",
         "subject": "Accounting",
         "designation": "Director",
-        "salary": 15000,
+        "salary": 25000,
         "number_of_lecture_per_month": 18,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/231106099_3076464172598475_8454287828393905305_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=cZHb5UsTDxoAX-KVU-W&_nc_ht=scontent.fdac5-1.fna&oh=7b58c608d2ebb0f48d628540b1f7aca4&oe=6175F8B6"
         
@@ -14,7 +14,7 @@
         "name": "Baset",
         "subject": "Higher Math",
         "designation": "Ast Director",
-        "salary": 10000,
+        "salary": 20000,
         "number_of_lecture_per_month": 15,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t31.18172-8/28699163_903592969765506_723166180719852422_o.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=Q0Cc5JB4UgsAX_g-wq4&_nc_ht=scontent.fdac5-1.fna&oh=95acb830d98ae55f700a35e65dcc0edb&oe=6176EF79"
         
@@ -24,7 +24,7 @@
         "name": "Atiqur Rahman",
         "subject": "Physics",
         "designation": "Sr Teacher",
-        "salary": 8000,
+        "salary": 18000,
         "number_of_lecture_per_month": 12,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/106613135_1368915569967800_1321349592281687155_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=AO9A9zrXCNsAX89sVCU&_nc_ht=scontent.fdac5-1.fna&oh=80e3514c0198a2dc1b4f1ae35cbae4c6&oe=61767C36"
         
@@ -34,7 +34,7 @@
         "name": "Golar Sarwar",
         "subject": "Chemistry",
         "designation": "Sr Teacher",
-        "salary": 8000,
+        "salary": 15000,
         "number_of_lecture_per_month": 9,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/213162765_2853760164876888_3808942551748841248_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=JNWZs0qWo8gAX9J0WB-&_nc_ht=scontent.fdac5-2.fna&oh=89434092fb13271a6b9bec5ff6f1393b&oe=6176E702"
         
@@ -44,7 +44,7 @@
         "name": "Ratul Anik",
         "subject": "Chemistry",
         "designation": "Sr Teacher",
-        "salary": 8000,
+        "salary": 15000,
         "number_of_lecture_per_month": 9,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/p526x296/198331021_4375247295842900_7275627251253902768_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=730e14&_nc_ohc=9rXsZyONAccAX8tMmjP&_nc_ht=scontent.fdac5-2.fna&oh=2f1b499bbeea84accf0301c2dfa30ec0&oe=6173A811"
         
@@ -54,7 +54,7 @@
         "name": "K.M Dabir",
         "subject": "English",
         "designation": "Sr Teacher",
-        "salary": 7000,
+        "salary": 15000,
         "number_of_lecture_per_month": 15,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/171550827_3924288674325713_8280031574063887299_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_ohc=DpjDfMTjxEgAX_-wEaF&_nc_ht=scontent.fdac5-2.fna&oh=daf498469b4315b55d3a7a75040b1bc0&oe=617594DF"
         
@@ -64,7 +64,7 @@
         "name": "Sabbir Hossain",
         "subject": "Science",
         "designation": "Sr Teacher",
-        "salary": 6500,
+        "salary": 10000,
         "number_of_lecture_per_month": 10,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/111127881_1517068558480770_2913166753358337764_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=FJ0aC7tElZ0AX_6bvjW&tn=fc94_zDh_Knd_4Yq&_nc_ht=scontent.fdac5-2.fna&oh=c0e9be5b1263b04b5505dc68bf342100&oe=61774ADD"
         
@@ -74,7 +74,7 @@
         "name": "Wakil Piyal",
         "subject": "ICT",
         "designation": "Sr Teacher",
-        "salary": 5000,
+        "salary": 10000,
         "number_of_lecture_per_month": 12,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/151218582_10217576698961653_6049467949870968838_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=uwtvxh-jds0AX_HEAGl&_nc_ht=scontent.fdac5-2.fna&oh=f8ab4030b944983c2cee6858ed26f1f9&oe=61742A66"
         
@@ -84,7 +84,7 @@
         "name": "Faisal Ahmed",
         "subject": "Math",
         "designation": "Sr Teacher",
-        "salary": 7500,
+        "salary": 15000,
         "number_of_lecture_per_month": 20,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/129176756_3269906189785990_4444883960132366158_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_ohc=5p336gUTyF4AX9UvBUJ&_nc_ht=scontent.fdac5-2.fna&oh=50eb7d08724b06659a20a0b19bdf2fd0&oe=61756BC7"
         
@@ -94,7 +94,7 @@
         "name": "Liton Rahman",
         "subject": "Management",
         "designation": "Teacher",
-        "salary": 3000,
+        "salary": 9000,
         "number_of_lecture_per_month": 12,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/227188470_3017911545144477_5413504117606241051_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=voFo5SrsHFsAX_OkaW4&_nc_ht=scontent.fdac5-1.fna&oh=af9a0f7d5f1b3f7ee0d2569d474473ab&oe=617406D7"
         
@@ -104,7 +104,7 @@
         "name": "Alamin Aove",
         "subject": "Bangla",
         "designation": "Jr Teacher",
-        "salary": 3000,
+        "salary": 8000,
         "number_of_lecture_per_month": 15,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/84624828_1241833912672643_1697327863713234944_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=hJ2kHmDfvIsAX9HbL_L&_nc_ht=scontent.fdac5-2.fna&oh=df345464101b94f2a458db8aa2c129e2&oe=6174DA33"
         
@@ -114,7 +114,7 @@
         "name": "Raihan Kabir",
         "subject": "Marketing",
         "designation": "Teacher",
-        "salary": 2500,
+        "salary": 7000,
         "number_of_lecture_per_month": 8,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/80362366_995435560828843_6417120163191062528_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=a4a2d7&_nc_ohc=dID08pvU5soAX-qc9po&_nc_oc=AQmDwurLuxxyD6Jm4c_FtN1W7flDA6B6QyRscZ1r6C1ubO3u4KDneczpZlpQ8MaQwTY&tn=fc94_zDh_Knd_4Yq&_nc_ht=scontent.fdac5-1.fna&oh=72f4d9aaba47dfc432f8f5a39e2aabce&oe=617611F7"
         
@@ -124,7 +124,7 @@
         "name": "Zahed Hasan",
         "subject": "Ict",
         "designation": "Jr Teacher",
-        "salary": 3000,
+        "salary": 7000,
         "number_of_lecture_per_month": 10,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/241084132_1231547453938283_8824991292795042902_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UwPSMI4XyRQAX-RPOwZ&tn=fc94_zDh_Knd_4Yq&_nc_ht=scontent.fdac5-2.fna&oh=0f8351cceac8f4654ef0ed2b4354e023&oe=61742D68"
         
@@ -134,7 +134,7 @@
         "name": "Shahidul Islam",
         "subject": "Social Science",
         "designation": "Sports Teacher",
-        "salary": 4000,
+        "salary": 10000,
         "number_of_lecture_per_month": 12,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/83885587_603821123748629_2204488283608580096_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=t1EemnhsphUAX-bxIy3&_nc_ht=scontent.fdac5-1.fna&oh=c5b87ee87e4d01b90e6791b4319070a0&oe=61769ACA"
         
@@ -144,7 +144,7 @@
         "name": "Kazi Oni",
         "subject": "Islamic Studies",
         "designation": "Teacher",
-        "salary": 3000,
+        "salary": 9000,
         "number_of_lecture_per_month": 10,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/109466562_942012316266696_1585943978370195997_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Nu4W7agH_n8AX9OY9yV&_nc_ht=scontent.fdac5-2.fna&oh=1e700c5b2ed2d2d0a45aba726e8cd702&oe=617508B6"
         
@@ -154,7 +154,7 @@
         "name": "Samiul Sakib",
         "subject": "Math",
         "designation": "Jr Teacher",
-        "salary": 2500,
+        "salary": 5000,
         "number_of_lecture_per_month": 16,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/233727565_1432888763758099_4840090632022955039_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=wd79GbLcCAoAX_TtWsI&_nc_ht=scontent.fdac5-1.fna&oh=8941c90bd4bb7ffa8d6bf23ecfe3a388&oe=617640E8"
         
@@ -164,7 +164,7 @@
         "name": "Abir Hossain",
         "subject": "Bangla",
         "designation": "Jr Teacher",
-        "salary": 2500,
+        "salary": 4500,
         "number_of_lecture_per_month": 14,
         "img": "https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/240505521_537410810930600_5871599587601892513_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=qHaOGUepx2AAX-p6l-P&_nc_ht=scontent.fdac5-2.fna&oh=65cbfbfd472461bafc555e9ab74918c6&oe=6173BD94"
         
@@ -174,7 +174,7 @@
         "name": "Mahian Mahin",
         "subject": "Marketing",
         "designation": "Jr Teacher",
-        "salary": 2000,
+        "salary": 5000,
         "number_of_lecture_per_month": 11,
         "img": "https://scontent.fdac5-1.fna.fbcdn.net/v/t1.6435-9/86356058_1094981120853725_4988921388401164288_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NajdpIGz5-UAX8yvipO&_nc_ht=scontent.fdac5-1.fna&oh=805f20b5b9fad45c10cbc875a3fc6e44&oe=617418A1"
         

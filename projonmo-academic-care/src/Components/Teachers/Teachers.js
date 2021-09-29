@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Teacher from '../Teacher/Teacher';
-import './Teacher.css'
+import './Teachers.css'
 
 const Teachers = () => {
     // useState for handling teachers data 
@@ -24,7 +24,7 @@ const Teachers = () => {
         setCart(newCart);
     }
     return (
-        <div>
+        <div className="bg-body">
             <div className="custom-container">
                 <div className="row my-5">
                     <div className="col-md-9">

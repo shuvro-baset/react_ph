@@ -7,7 +7,7 @@ const Teacher = (props) => {
     return (
         // teachers card
         <div className="col-md-4">
-            <div className="card shadow my-3 p-3 rounded bg-info">
+            <div className="card shadow my-3 p-3 rounded">
                 <div className="d-flex justify-content-center my-3">
                     <img src={img} className="img-fluid teacher-img" alt="" />
                 </div>

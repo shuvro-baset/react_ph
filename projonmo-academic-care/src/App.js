@@ -4,9 +4,9 @@ import Teachers from './Components/Teachers/Teachers';
 
 function App() {
   return (
-    <div>
-      <Header></Header>
-      <Teachers></Teachers>
+    <div >
+      <Header className='bg-body'></Header>
+      <Teachers className='bg-body'></Teachers>
     </div>
   );
 }

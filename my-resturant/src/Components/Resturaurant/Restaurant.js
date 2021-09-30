@@ -18,8 +18,10 @@ const Restaurant = () => {
     }
     return (
         <>
+            <Typography sx={{margin: 'auto'}}><h1>Welcome to My Restaurant</h1></Typography>
+
             <TextField onChange={handleSearchField} id="outlined-basic" label="search food" variant="outlined" sx={{width: 500}} />
-            <Grid container  spacing={5}>
+            <Grid container  spacing={5} sx={{padding: 8}}>
                 {
                     meals.map(meal => <Meal key={meal.idMeal} meal={meal}></Meal>)
                 }

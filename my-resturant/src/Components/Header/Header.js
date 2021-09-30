@@ -17,7 +17,7 @@ const Header = () => {
                 </Toolbar>
             </AppBar>
             <Typography><h1>Welcome to My Restaurant</h1></Typography>
-            <TextField id="outlined-basic" label="search food" variant="outlined" sx={{width: 500}} />
+            
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { AppBar, Typography, Toolbar, IconButton, Button, TextField, Card, CardContent, CardMedia,CardActionArea } from '@mui/material';
+import { AppBar, Typography, Toolbar, IconButton, Button, TextField, Grid } from '@mui/material';
 import Meal from '../Meal/Meal';
 
 const Restaurant = () => {
@@ -17,13 +17,14 @@ const Restaurant = () => {
         setSearchText(searchText)
     }
     return (
-        <div>
+        <>
             <TextField onChange={handleSearchField} id="outlined-basic" label="search food" variant="outlined" sx={{width: 500}} />
-            {
-                meals.map(meal => <Meal key={meal.idMeal} meal={meal}></Meal>)
-            }
-            
-        </div>
+            <Grid container  spacing={5}>
+                {
+                    meals.map(meal => <Meal key={meal.idMeal} meal={meal}></Meal>)
+                }
+            </Grid>
+        </>
     );
 };
 

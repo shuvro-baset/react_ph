@@ -1,14 +1,15 @@
 import React from 'react';
-import { Typography, Card, CardContent, CardMedia,CardActionArea } from '@mui/material';
+import { Typography, Card, CardContent, CardMedia, Grid } from '@mui/material';
 
 const Meal = (props) => {
     console.log(props)
     return (
-        <div>
-            <Card sx={{ maxWidth: 345, m:5 }}>
+        
+        <Grid sx={{marginTop:5}} item md={4} xs={12} sm={6}>
+            <Card>
                     <CardMedia
                     component="img"
-                    height="140"
+                    height="240"
                     image={props.meal.strMealThumb}
                     alt="green iguana"
                     />
@@ -21,7 +22,9 @@ const Meal = (props) => {
                     </Typography>
                     </CardContent>
             </Card>
-        </div>
+        </Grid>
+            
+        
     );
 };
 

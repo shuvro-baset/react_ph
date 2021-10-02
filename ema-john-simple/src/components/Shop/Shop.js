@@ -13,7 +13,7 @@ const Shop = () => {
     // products to be rendered on the UI
     const [displayProducts, setDisplayProducts] = useState([]);
 
-    // First Effect for uploading products
+    // displaying products
     useEffect(() => {
         fetch('./products.JSON')
             .then(res => res.json())

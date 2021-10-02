@@ -20,6 +20,7 @@ const OrderReview = () => {
     const handlePlaceOrder = () => {
         setCart([]);
         clearTheCart();
+        // when clicked place order button.
         history.push('/placeorder');
     }
 

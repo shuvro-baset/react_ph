@@ -32,6 +32,7 @@ function App() {
 
   const handleNameChange = e => {
     setName(e.target.value);
+    console.log(e.target.value)
   }
   const handleEmailChange = e => {
     setEmail(e.target.value);

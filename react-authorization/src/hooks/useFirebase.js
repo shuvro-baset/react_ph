@@ -27,6 +27,21 @@ const useFirebase = () => {
             })
     }
 
+    // github signIn function
+    const signInUsingGithub = () => {
+        signInWithPopup(auth, githubProvider)
+            .then(result => {
+                setUser(result.user);
+            })
+    }
+
+    //  logout functionality
+    const logout = () => {
+        signOut(auth)
+            .then(() => {
+                setUser({});
+            })
+    }
     // user onAuthStateChanged
     useEffect(() => {
         onAuthStateChanged(auth, user => {
@@ -40,8 +55,8 @@ const useFirebase = () => {
         user,
         error,
         signInUsingGoogle,
-        // signInUsingGithub,
-        // logout
+        signInUsingGithub,
+        logout
     }
 }
 

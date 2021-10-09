@@ -1,9 +1,4 @@
-const  showName = (name) => {
+const student = { name : "Fakibaaz", job: "Practice Kom Kora" ,  address: "janina"  }
 
-    return 
-
-    console.log(name)
-
-}
-
-showName("Crush")
+const  {address , ...rest } = student
+console.log(rest)

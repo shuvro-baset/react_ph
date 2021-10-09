@@ -4,6 +4,9 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Register from './Components/Register/Register';
 import Login from './Components/Login/Login';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Shipping from './Components/Shipping/Shipping';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 function App() {
   return (
     <div className="App">
@@ -22,12 +25,12 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            {/* <PrivateRoute path="/shipping">
+            <PrivateRoute path="/shipping">
               <Shipping></Shipping>
             </PrivateRoute>
             <PrivateRoute path="/placeorder">
               <PlaceOrder></PlaceOrder>
-            </PrivateRoute>  */}
+            </PrivateRoute> 
           </Switch>
       </BrowserRouter>
     </div>
